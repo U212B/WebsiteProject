@@ -1,0 +1,69 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu{
+    display: flex;
+    list-style-type: none;
+    background-color:lightblue;
+}
+
+.menu li{
+    margin-right: 10px;
+}
+
+.about-picture {
+    max-width: 200px;
+    max-height:fit-content;
+}
+
+.goBack-picture {
+    max-width: 150px;
+    max-height: 150px;
+
+}
+
+/*
+Font Settings
+*/
+
+@font-face {
+    font-family: japaneseRobot;
+    src: url(/fonts/robot/japanese_robot_italic-webfont.woff);
+    src: url(/fonts/robot/japanese_robot_italic-webfont.woff2);
+}
+
+@font-face {
+    font-family: tahu;
+    src: url(/fonts/tahu/tahu-webfont.woff);
+    src: url(/fonts/tahu/tahu-webfont.woff2);
+}
+
+.aboutMeMenu{
+    margin-left: 0px;
+    margin-top: 50px;
+}
+
+.introduction {
+        font-family: myFirstFont;
+        margin-top: 75px;
+        margin-left: 125px;
+        font-size: 150%;
+}
+
+.aboutMeTitle {
+    font-size: 250%;
+}
+
+.aboutMeText {
+    font-size: 150%;
+    margin-top: 25px;
+}
+
+.wrench-picture {
+    max-width: 200px;
+    max-height: 200px;
+    margin-left: 75px;
+}

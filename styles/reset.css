@@ -1,0 +1,11 @@
+body {
+    margin:0;
+}
+
+.menu {
+    margin-top: 0px;
+}
+
+*{
+    box-sizing: border-box;
+}
