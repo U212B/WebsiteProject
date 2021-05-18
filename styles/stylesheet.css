@@ -1,17 +1,30 @@
+a:link{
+    text-decoration: none;
+}
+
 .nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    font-family: tahu;
+    margin: 0px;
 }
 
 .menu{
     display: flex;
     list-style-type: none;
     background-color:lightblue;
+    font-family: tahu;
+    font-size: 100px;
 }
 
 .menu li{
     margin-right: 10px;
+}
+
+.hyperlink{
+    font-size: 100px;
+    margin-left: 125px;
 }
 
 .about-picture {
@@ -24,6 +37,8 @@
     max-height: 150px;
 
 }
+
+
 
 /*
 Font Settings
@@ -47,10 +62,10 @@ Font Settings
 }
 
 .introduction {
-        font-family: myFirstFont;
+        font-family: japaneseRobot;
         margin-top: 75px;
         margin-left: 125px;
-        font-size: 150%;
+        font-size: 100%;
 }
 
 .aboutMeTitle {
@@ -60,10 +75,18 @@ Font Settings
 .aboutMeText {
     font-size: 150%;
     margin-top: 25px;
+    float: left;
+    clear: left;
+    line-break: anywhere;
 }
 
 .wrench-picture {
     max-width: 200px;
     max-height: 200px;
     margin-left: 75px;
+}
+
+#content::after {
+    content: "\A";
+    white-space: pre;
 }
