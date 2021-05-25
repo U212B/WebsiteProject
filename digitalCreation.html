@@ -8,7 +8,35 @@
     <link rel="stylesheet" href="styles/stylesheet.css">
     <title>Document</title>
 </head>
+
 <body>
-    
+  
+    <nav>
+        <ul class="aboutMeMenu">
+            <a href="index.html">
+                <img class="goBack-picture" src="img/goBack.jpg" alt="Go back to index">
+            </a>
+        </ul>
+    </nav>
+
+    <div class="introduction">
+        <div class="descriptionText" style="margin-top: -50px;">
+            <span id="content">This is the place I store some of my previous digital art projects.</span>
+        </div>
+
+        <div class ="descriptionText" style="margin-top: -25px">
+            <span id="content">Feel free to contact me regarding orders and constructive critisism</span>
+        </div>
+
+        <div>
+            <button class="button" onclick="document.getElementById('projectImage').src='img/projectImg/projectOne.png'">Project One</button>
+            <button class="button" onclick="document.getElementById('projectImage').src='img/projectImg/projectTwo.png'">Project Two</button>
+        </div>
+    </div>
+
+    <div class="projectImage">
+        <img id="projectImage" src="img/projectImg/projectOne.png">    
+    </div>
+
 </body>
 </html>

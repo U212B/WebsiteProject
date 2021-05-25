@@ -9,3 +9,16 @@ body {
 *{
     box-sizing: border-box;
 }
+
+a:link{
+    color:royalblue;
+    text-decoration: none;
+}
+
+a:visited{
+    color:royalblue;
+}
+
+a:hover{
+    color:royalblue;
+}

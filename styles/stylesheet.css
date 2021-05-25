@@ -1,6 +1,4 @@
-a:link{
-    text-decoration: none;
-}
+
 
 .nav{
     display: flex;
@@ -12,19 +10,28 @@ a:link{
 
 .menu{
     display: flex;
+    justify-content: center;
     list-style-type: none;
-    background-color:lightblue;
     font-family: tahu;
     font-size: 100px;
+    margin: 75px;
 }
 
 .menu li{
     margin-right: 10px;
 }
 
+.cr4bstudio{
+    text-align:center;
+    font-size: 1250%;
+    font-family: japaneseRobot;
+    color:plum;
+}
+
 .hyperlink{
     font-size: 100px;
-    margin-left: 125px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 .about-picture {
@@ -72,7 +79,7 @@ Font Settings
     font-size: 250%;
 }
 
-.aboutMeText {
+.descriptionText {
     font-size: 150%;
     margin-top: 25px;
     float: left;
@@ -80,13 +87,22 @@ Font Settings
     line-break: anywhere;
 }
 
-.wrench-picture {
-    max-width: 200px;
-    max-height: 200px;
-    margin-left: 75px;
-}
-
 #content::after {
     content: "\A";
     white-space: pre;
+}
+
+.projectImage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.button{
+    border:none;
+    text-decoration: none;
+    background-color: magenta;
+    cursor:pointer;
+    border: 2px solid black;
 }
